@@ -42,13 +42,13 @@ https://www.youtube.com/watch?v=jWpI8qzqNHk
 	https://github.com/voelzmo/vizceral-release
 # Main page
 
-![Vizceral](vizceral-main-page.png)
+![Vizceral](images/vizceral-main-page.png)
 
 # Drill Down
-![Vizceral Drill Down](vizceral-drill-down.png)
+![Vizceral Drill Down](images/vizceral-drill-down.png)
 
 # Behind the scenes Node Red accepting the HTTP Requests
-![Node-Red Basic Flow](/images/basicflow.png)
+![Node-Red Basic Flow](images/basicflow.png)
 
 # Behind the scenes Node Red Running Elastic Queries and transforming the data
-![Elasticsearch Processing flow](Elasstic-Flow.png)
+![Elasticsearch Processing flow](images/Elasstic-Flow.png)
