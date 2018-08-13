@@ -9,7 +9,9 @@ npm install
 open browser to 
 
 http://localhost:1880   (Main screen)
+
 http://localhost/admin     (Node-Red console)
+
 http://localhost/toggle    (Toggel Simple, Complex or Live Elasticsearch data, and link to Raw Json Data)
 
 
@@ -22,6 +24,7 @@ https://docs.google.com/presentation/d/1TAspsnBzn3WhBJuqylxtwYv1uQOend6UoeVG-kAs
 
 HBC Digital Vizceral - will be migrated to internet github
 	https://github.digital.hbc.com/HBCDigitalUnix/HBC-Vizcreal
+
 HBC Digital Elasticsearch
 	https://github.digital.hbc.com/HBCDigitalUnix/ansible-playbook-elasticsearch
 
