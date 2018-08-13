@@ -1,3 +1,4 @@
+![Vizceral](vizceral-main-page.png)
 # To run:  - NEED Nodejs installed
 
 Checkout repo
@@ -39,4 +40,15 @@ https://www.youtube.com/watch?v=jWpI8qzqNHk
 
 ## Vizceral based on ElasticSearch/Packbeat
 	https://github.com/voelzmo/vizceral-release
+# Main page
 
+![Vizceral](vizceral-main-page.png)
+
+# Drill Down
+![Vizceral Drill Down](vizceral-drill-down.png)
+
+# Behind the scenes Node Red accepting the HTTP Requests
+![Node-Red Basic Flow](/images/basicflow.png)
+
+# Behind the scenes Node Red Running Elastic Queries and transforming the data
+![Elasticsearch Processing flow](Elasstic-Flow.png)
