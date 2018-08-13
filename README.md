@@ -1,4 +1,4 @@
-![Vizceral](vizceral-main-page.png?raw=true)
+![Vizceral](images/vizceral-main-page.png?raw=true)
 # To run:  - NEED Nodejs installed
 
 Checkout repo
