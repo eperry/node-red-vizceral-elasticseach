@@ -1,0 +1,1285 @@
+var esResponseParser = require("es-response-parser");
+var esResponse={
+    "took": 142,
+    "timed_out": false,
+    "_shards": {
+        "total": 52,
+        "successful": 52,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 471149,
+        "max_score": 0,
+        "hits": []
+    },
+    "aggregations": {
+        "regions": {
+            "doc_count_error_upper_bound": 4,
+            "sum_other_doc_count": 897,
+            "buckets": [
+                {
+                    "key": "www.saksfifthavenue.com",
+                    "doc_count": 362169,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb03lx",
+                                "doc_count": 66304,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 3,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 60865
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 3468
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 881
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 454
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 326
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 163
+                                        },
+                                        {
+                                            "key": 502,
+                                            "doc_count": 52
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 44
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 30
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 18
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb06lx",
+                                "doc_count": 60905,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 55002
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 3962
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 902
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 402
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 366
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 186
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 43
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 30
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 8
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 4
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb01lx",
+                                "doc_count": 59397,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 10,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 53004
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 3933
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 1013
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 695
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 377
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 220
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 62
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 40
+                                        },
+                                        {
+                                            "key": 502,
+                                            "doc_count": 22
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 21
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb04lx",
+                                "doc_count": 59157,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 7,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 53158
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 3764
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 1043
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 539
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 248
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 197
+                                        },
+                                        {
+                                            "key": 502,
+                                            "doc_count": 81
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 64
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 39
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 17
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb05lx",
+                                "doc_count": 58571,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 10,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 51687
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 4294
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 981
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 652
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 437
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 232
+                                        },
+                                        {
+                                            "key": 502,
+                                            "doc_count": 165
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 59
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 41
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 13
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb02lx",
+                                "doc_count": 57835,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 3,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 51612
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 4082
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 1153
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 490
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 215
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 155
+                                        },
+                                        {
+                                            "key": 502,
+                                            "doc_count": 47
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 36
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 33
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 9
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 49,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 325328
+                            },
+                            {
+                                "key": 304,
+                                "doc_count": 23503
+                            },
+                            {
+                                "key": 302,
+                                "doc_count": 5973
+                            },
+                            {
+                                "key": 401,
+                                "doc_count": 3232
+                            },
+                            {
+                                "key": 400,
+                                "doc_count": 1858
+                            },
+                            {
+                                "key": 301,
+                                "doc_count": 1264
+                            },
+                            {
+                                "key": 502,
+                                "doc_count": 367
+                            },
+                            {
+                                "key": 404,
+                                "doc_count": 308
+                            },
+                            {
+                                "key": 500,
+                                "doc_count": 213
+                            },
+                            {
+                                "key": 201,
+                                "doc_count": 74
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "m.saks.com",
+                    "doc_count": 83419,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb02lx",
+                                "doc_count": 16051,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 12180
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2695
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 799
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 303
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 42
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 19
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 9
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 2
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb01lx",
+                                "doc_count": 14958,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 11598
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2261
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 796
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 246
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 33
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 14
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 7
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 3
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb06lx",
+                                "doc_count": 14777,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 11722
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2081
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 690
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 217
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 43
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 13
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 8
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 2
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb04lx",
+                                "doc_count": 14094,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 10552
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2508
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 724
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 252
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 32
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 14
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 5
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 5
+                                        },
+                                        {
+                                            "key": 403,
+                                            "doc_count": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb05lx",
+                                "doc_count": 12725,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 9821
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2008
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 651
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 179
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 50
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 12
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 4
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb03lx",
+                                "doc_count": 10814,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 8270
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 1791
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 527
+                                        },
+                                        {
+                                            "key": 401,
+                                            "doc_count": 188
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 22
+                                        },
+                                        {
+                                            "key": 301,
+                                            "doc_count": 7
+                                        },
+                                        {
+                                            "key": 201,
+                                            "doc_count": 5
+                                        },
+                                        {
+                                            "key": 414,
+                                            "doc_count": 2
+                                        },
+                                        {
+                                            "key": 500,
+                                            "doc_count": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 2,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 64143
+                            },
+                            {
+                                "key": 302,
+                                "doc_count": 13344
+                            },
+                            {
+                                "key": 304,
+                                "doc_count": 4187
+                            },
+                            {
+                                "key": 401,
+                                "doc_count": 1385
+                            },
+                            {
+                                "key": 404,
+                                "doc_count": 222
+                            },
+                            {
+                                "key": 301,
+                                "doc_count": 74
+                            },
+                            {
+                                "key": 201,
+                                "doc_count": 43
+                            },
+                            {
+                                "key": 414,
+                                "doc_count": 8
+                            },
+                            {
+                                "key": 400,
+                                "doc_count": 7
+                            },
+                            {
+                                "key": 500,
+                                "doc_count": 4
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "www.saksfirstbeauty.com",
+                    "doc_count": 6403,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb11lx",
+                                "doc_count": 2136,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2136
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb12lx",
+                                "doc_count": 2134,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2134
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb10lx",
+                                "doc_count": 2133,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 2133
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 302,
+                                "doc_count": 6403
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "go.saksdirect.com",
+                    "doc_count": 4034,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1mwb03lx",
+                                "doc_count": 2485,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 304,
+                                            "doc_count": 1320
+                                        },
+                                        {
+                                            "key": 200,
+                                            "doc_count": 1165
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1mwb04lx",
+                                "doc_count": 1549,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 1077
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 472
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 2242
+                            },
+                            {
+                                "key": 304,
+                                "doc_count": 1792
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "prodpim.digital.hbc.com",
+                    "doc_count": 3120,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1mwb04lx",
+                                "doc_count": 1694,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 1675
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 19
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1mwb03lx",
+                                "doc_count": 1426,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 1396
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 30
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 3071
+                            },
+                            {
+                                "key": 404,
+                                "doc_count": 49
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "saks.com",
+                    "doc_count": 2280,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb11lx",
+                                "doc_count": 812,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 809
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 3
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb12lx",
+                                "doc_count": 746,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 745
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb10lx",
+                                "doc_count": 722,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 719
+                                        },
+                                        {
+                                            "key": 400,
+                                            "doc_count": 3
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 301,
+                                "doc_count": 2273
+                            },
+                            {
+                                "key": 400,
+                                "doc_count": 7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "s5aimt.saksdirect.com",
+                    "doc_count": 1825,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1mwb04lx",
+                                "doc_count": 1227,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 1222
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 5
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1mwb03lx",
+                                "doc_count": 598,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 593
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 5
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 1815
+                            },
+                            {
+                                "key": 302,
+                                "doc_count": 10
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "preview.saksdirect.com",
+                    "doc_count": 885,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1mwb03lx",
+                                "doc_count": 701,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 570
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 118
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 8
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 3
+                                        },
+                                        {
+                                            "key": 206,
+                                            "doc_count": 2
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1mwb04lx",
+                                "doc_count": 184,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 200,
+                                            "doc_count": 165
+                                        },
+                                        {
+                                            "key": 304,
+                                            "doc_count": 16
+                                        },
+                                        {
+                                            "key": 404,
+                                            "doc_count": 2
+                                        },
+                                        {
+                                            "key": 302,
+                                            "doc_count": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 200,
+                                "doc_count": 735
+                            },
+                            {
+                                "key": 304,
+                                "doc_count": 134
+                            },
+                            {
+                                "key": 404,
+                                "doc_count": 10
+                            },
+                            {
+                                "key": 302,
+                                "doc_count": 4
+                            },
+                            {
+                                "key": 206,
+                                "doc_count": 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "lordandtaylor.com",
+                    "doc_count": 782,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb11lx",
+                                "doc_count": 286,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 286
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb12lx",
+                                "doc_count": 256,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 256
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb10lx",
+                                "doc_count": 240,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 301,
+                                            "doc_count": 240
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 301,
+                                "doc_count": 782
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "thebay.com",
+                    "doc_count": 648,
+                    "nodes": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": "sd1pwb11lx",
+                                "doc_count": 241,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 241
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb10lx",
+                                "doc_count": 205,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 205
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "sd1pwb12lx",
+                                "doc_count": 202,
+                                "metrics": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "key": 302,
+                                            "doc_count": 202
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "metrics": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "key": 302,
+                                "doc_count": 648
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "metrics": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 67,
+            "buckets": [
+                {
+                    "key": 200,
+                    "doc_count": 397516
+                },
+                {
+                    "key": 304,
+                    "doc_count": 29616
+                },
+                {
+                    "key": 302,
+                    "doc_count": 26682
+                },
+                {
+                    "key": 301,
+                    "doc_count": 4800
+                },
+                {
+                    "key": 401,
+                    "doc_count": 4617
+                },
+                {
+                    "key": 400,
+                    "doc_count": 1872
+                },
+                {
+                    "key": 404,
+                    "doc_count": 591
+                },
+                {
+                    "key": 502,
+                    "doc_count": 367
+                },
+                {
+                    "key": 500,
+                    "doc_count": 217
+                },
+                {
+                    "key": 201,
+                    "doc_count": 117
+                }
+            ]
+        }
+    }
+}
+  var result = esResponseParser.parse(esResponse);
+  
+  console.log(JSON.stringify(result,null,1));

@@ -1,0 +1,4510 @@
+{
+    "renderer": "global",
+    "name": "edge",
+    "maxVolume": 456782,
+    "nodes": [
+        {
+            "renderer": "region",
+            "layout": "ltrTree",
+            "name": "INTERNET",
+            "updated": 0,
+            "metadata": {},
+            "nodes": [],
+            "notices": [
+                {
+                    "title": "Notice about something",
+                    "link": "http://link/to/relevant/thing",
+                    "severity": 1
+                }
+            ]
+        },
+        {
+            "name": "www.saksfifthavenue.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 339477,
+                "warning": 5302,
+                "danger": 552
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 63027,
+                        "warning": 875,
+                        "danger": 76
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 56692,
+                        "warning": 793,
+                        "danger": 108
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 56591,
+                        "warning": 744,
+                        "danger": 29
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 54855,
+                        "warning": 682,
+                        "danger": 79
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 54363,
+                        "warning": 1128,
+                        "danger": 64
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 53942,
+                        "warning": 1102,
+                        "danger": 196
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 339477,
+                        "warning": 5302,
+                        "danger": 552
+                    }
+                }
+            ]
+        },
+        {
+            "name": "m.saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 85080,
+                "warning": 1636,
+                "danger": 4
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 15901,
+                        "warning": 341,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 15585,
+                        "warning": 299,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 15079,
+                        "warning": 254,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 14345,
+                        "warning": 288,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 13385,
+                        "warning": 248,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 10785,
+                        "warning": 208,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 85080,
+                        "warning": 1636,
+                        "danger": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "www.saksfirstbeauty.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 6396,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 2133,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 2133,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 2130,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 6396,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "go.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 4100,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 2482,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1618,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 4100,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "prodpim.digital.hbc.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2253,
+                "warning": 45,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1260,
+                        "warning": 22,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 993,
+                        "warning": 23,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2253,
+                        "warning": 45,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2256,
+                "warning": 7,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 799,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 774,
+                        "warning": 1,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 683,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2256,
+                        "warning": 7,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "s5aimt.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2188,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1394,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 794,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2188,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "lordandtaylor.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 783,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 287,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 266,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 230,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 783,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "thebay.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 629,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 238,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 205,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 186,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 629,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "preview.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 610,
+                "warning": 4,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 438,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 172,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 610,
+                        "warning": 4,
+                        "danger": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "www.saksfifthavenue.com",
+            "metrics": {
+                "normal": 339477,
+                "warning": 5302,
+                "danger": 552
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "m.saks.com",
+            "metrics": {
+                "normal": 85080,
+                "warning": 1636,
+                "danger": 4
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "www.saksfirstbeauty.com",
+            "metrics": {
+                "normal": 6396,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "go.saksdirect.com",
+            "metrics": {
+                "normal": 4100,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "prodpim.digital.hbc.com",
+            "metrics": {
+                "normal": 2253,
+                "warning": 45,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "saks.com",
+            "metrics": {
+                "normal": 2256,
+                "warning": 7,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "s5aimt.saksdirect.com",
+            "metrics": {
+                "normal": 2188,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "lordandtaylor.com",
+            "metrics": {
+                "normal": 783,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "thebay.com",
+            "metrics": {
+                "normal": 629,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "preview.saksdirect.com",
+            "metrics": {
+                "normal": 610,
+                "warning": 4,
+                "danger": 0
+            }
+        }
+    ]
+}
+{
+    "renderer": "global",
+    "name": "edge",
+    "maxVolume": 473113,
+    "nodes": [
+        {
+            "renderer": "region",
+            "layout": "ltrTree",
+            "name": "INTERNET",
+            "updated": 0,
+            "metadata": {},
+            "nodes": [],
+            "notices": [
+                {
+                    "title": "Notice about something",
+                    "link": "http://link/to/relevant/thing",
+                    "severity": 1
+                }
+            ]
+        },
+        {
+            "name": "www.saksfifthavenue.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 357210,
+                "warning": 5439,
+                "danger": 577
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 65776,
+                        "warning": 856,
+                        "danger": 82
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 60099,
+                        "warning": 806,
+                        "danger": 30
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 58306,
+                        "warning": 1197,
+                        "danger": 62
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 58499,
+                        "warning": 778,
+                        "danger": 119
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 57138,
+                        "warning": 1155,
+                        "danger": 205
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 57383,
+                        "warning": 671,
+                        "danger": 79
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 357210,
+                        "warning": 5439,
+                        "danger": 577
+                    }
+                }
+            ]
+        },
+        {
+            "name": "m.saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 82659,
+                "warning": 1621,
+                "danger": 4
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 15760,
+                        "warning": 345,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 14965,
+                        "warning": 290,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 14657,
+                        "warning": 263,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 13849,
+                        "warning": 294,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 12772,
+                        "warning": 229,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 10656,
+                        "warning": 202,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 82659,
+                        "warning": 1621,
+                        "danger": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "www.saksfirstbeauty.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 6422,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 2141,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 2141,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 2140,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 6422,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "go.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 4052,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 2486,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1566,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 4052,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "prodpim.digital.hbc.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2998,
+                "warning": 52,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1647,
+                        "warning": 23,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 1351,
+                        "warning": 29,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2998,
+                        "warning": 52,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 806,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 746,
+                        "warning": 1,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 721,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2273,
+                        "warning": 7,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "s5aimt.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 1945,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1280,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 665,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 1945,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "preview.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 693,
+                        "warning": 8,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 182,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 875,
+                        "warning": 10,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "lordandtaylor.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 787,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 288,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 256,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 243,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 787,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "thebay.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 645,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 242,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 204,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 199,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 645,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "www.saksfifthavenue.com",
+            "metrics": {
+                "normal": 357210,
+                "warning": 5439,
+                "danger": 577
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "m.saks.com",
+            "metrics": {
+                "normal": 82659,
+                "warning": 1621,
+                "danger": 4
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "www.saksfirstbeauty.com",
+            "metrics": {
+                "normal": 6422,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "go.saksdirect.com",
+            "metrics": {
+                "normal": 4052,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "prodpim.digital.hbc.com",
+            "metrics": {
+                "normal": 2998,
+                "warning": 52,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "saks.com",
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "s5aimt.saksdirect.com",
+            "metrics": {
+                "normal": 1945,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "preview.saksdirect.com",
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "lordandtaylor.com",
+            "metrics": {
+                "normal": 787,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "thebay.com",
+            "metrics": {
+                "normal": 645,
+                "warning": 0,
+                "danger": 0
+            }
+        }
+    ]
+}
+{
+    "renderer": "global",
+    "name": "edge",
+    "maxVolume": 471149,
+    "nodes": [
+        {
+            "renderer": "region",
+            "layout": "ltrTree",
+            "name": "INTERNET",
+            "updated": 0,
+            "metadata": {},
+            "nodes": [],
+            "notices": [
+                {
+                    "title": "Notice about something",
+                    "link": "http://link/to/relevant/thing",
+                    "severity": 1
+                }
+            ]
+        },
+        {
+            "name": "www.saksfifthavenue.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 65395,
+                        "warning": 824,
+                        "danger": 82
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 60060,
+                        "warning": 815,
+                        "danger": 30
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 58170,
+                        "warning": 1155,
+                        "danger": 62
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 58230,
+                        "warning": 800,
+                        "danger": 120
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 57207,
+                        "warning": 1148,
+                        "danger": 206
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 57071,
+                        "warning": 681,
+                        "danger": 80
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 356142,
+                        "warning": 5398,
+                        "danger": 580
+                    }
+                }
+            ]
+        },
+        {
+            "name": "m.saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 15702,
+                        "warning": 347,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 14676,
+                        "warning": 282,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 14514,
+                        "warning": 263,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 13803,
+                        "warning": 291,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 12496,
+                        "warning": 229,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 10600,
+                        "warning": 212,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 81791,
+                        "warning": 1622,
+                        "danger": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "www.saksfirstbeauty.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 2136,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 2134,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 2133,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 6403,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "go.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 2485,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1549,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 4034,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "prodpim.digital.hbc.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1675,
+                        "warning": 19,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 1396,
+                        "warning": 30,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 3071,
+                        "warning": 49,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 809,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 745,
+                        "warning": 1,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 719,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2273,
+                        "warning": 7,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "s5aimt.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1227,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 598,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 1825,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "preview.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 693,
+                        "warning": 8,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 182,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 875,
+                        "warning": 10,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "lordandtaylor.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 286,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 256,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 240,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 782,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "thebay.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 241,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 205,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 202,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 648,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "www.saksfifthavenue.com",
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "m.saks.com",
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "www.saksfirstbeauty.com",
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "go.saksdirect.com",
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "prodpim.digital.hbc.com",
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "saks.com",
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "s5aimt.saksdirect.com",
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "preview.saksdirect.com",
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "lordandtaylor.com",
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "thebay.com",
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            }
+        }
+    ]
+}
+{
+    "renderer": "global",
+    "name": "edge",
+    "maxVolume": 471149,
+    "nodes": [
+        {
+            "renderer": "region",
+            "layout": "ltrTree",
+            "name": "INTERNET",
+            "updated": 0,
+            "metadata": {},
+            "nodes": [],
+            "notices": [
+                {
+                    "title": "Notice about something",
+                    "link": "http://link/to/relevant/thing",
+                    "severity": 1
+                }
+            ]
+        },
+        {
+            "name": "www.saksfifthavenue.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 65395,
+                        "warning": 824,
+                        "danger": 82
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 60060,
+                        "warning": 815,
+                        "danger": 30
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 58170,
+                        "warning": 1155,
+                        "danger": 62
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 58230,
+                        "warning": 800,
+                        "danger": 120
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 57207,
+                        "warning": 1148,
+                        "danger": 206
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 57071,
+                        "warning": 681,
+                        "danger": 80
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 356142,
+                        "warning": 5398,
+                        "danger": 580
+                    }
+                }
+            ]
+        },
+        {
+            "name": "m.saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 15702,
+                        "warning": 347,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 14676,
+                        "warning": 282,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 14514,
+                        "warning": 263,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 13803,
+                        "warning": 291,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 12496,
+                        "warning": 229,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 10600,
+                        "warning": 212,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 81791,
+                        "warning": 1622,
+                        "danger": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "www.saksfirstbeauty.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 2136,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 2134,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 2133,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 6403,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "go.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 2485,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1549,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 4034,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "prodpim.digital.hbc.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1675,
+                        "warning": 19,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 1396,
+                        "warning": 30,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 3071,
+                        "warning": 49,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 809,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 745,
+                        "warning": 1,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 719,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2273,
+                        "warning": 7,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "s5aimt.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1227,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 598,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 1825,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "preview.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 693,
+                        "warning": 8,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 182,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 875,
+                        "warning": 10,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "lordandtaylor.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 286,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 256,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 240,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 782,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "thebay.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 241,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 205,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 202,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 648,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "www.saksfifthavenue.com",
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "m.saks.com",
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "www.saksfirstbeauty.com",
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "go.saksdirect.com",
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "prodpim.digital.hbc.com",
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "saks.com",
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "s5aimt.saksdirect.com",
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "preview.saksdirect.com",
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "lordandtaylor.com",
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "thebay.com",
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            }
+        }
+    ]
+}
+{
+    "renderer": "global",
+    "name": "edge",
+    "maxVolume": 471149,
+    "nodes": [
+        {
+            "renderer": "region",
+            "layout": "ltrTree",
+            "name": "INTERNET",
+            "updated": 0,
+            "metadata": {},
+            "nodes": [],
+            "notices": [
+                {
+                    "title": "Notice about something",
+                    "link": "http://link/to/relevant/thing",
+                    "severity": 1
+                }
+            ]
+        },
+        {
+            "name": "www.saksfifthavenue.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 65395,
+                        "warning": 824,
+                        "danger": 82
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 60060,
+                        "warning": 815,
+                        "danger": 30
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 58170,
+                        "warning": 1155,
+                        "danger": 62
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 58230,
+                        "warning": 800,
+                        "danger": 120
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 57207,
+                        "warning": 1148,
+                        "danger": 206
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 57071,
+                        "warning": 681,
+                        "danger": 80
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 356142,
+                        "warning": 5398,
+                        "danger": 580
+                    }
+                }
+            ]
+        },
+        {
+            "name": "m.saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb02lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb01lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb06lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb05lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb02lx",
+                    "metrics": {
+                        "normal": 15702,
+                        "warning": 347,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb01lx",
+                    "metrics": {
+                        "normal": 14676,
+                        "warning": 282,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb06lx",
+                    "metrics": {
+                        "normal": 14514,
+                        "warning": 263,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb04lx",
+                    "metrics": {
+                        "normal": 13803,
+                        "warning": 291,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb05lx",
+                    "metrics": {
+                        "normal": 12496,
+                        "warning": 229,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb03lx",
+                    "metrics": {
+                        "normal": 10600,
+                        "warning": 212,
+                        "danger": 2
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 81791,
+                        "warning": 1622,
+                        "danger": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "www.saksfirstbeauty.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 2136,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 2134,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 2133,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 6403,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "go.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 2485,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1549,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 4034,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "prodpim.digital.hbc.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1675,
+                        "warning": 19,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 1396,
+                        "warning": 30,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 3071,
+                        "warning": 49,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "saks.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 809,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 745,
+                        "warning": 1,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 719,
+                        "warning": 3,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 2273,
+                        "warning": 7,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "s5aimt.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 1227,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 598,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 1825,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "preview.saksdirect.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1mwb03lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1mwb04lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1mwb03lx",
+                    "metrics": {
+                        "normal": 693,
+                        "warning": 8,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1mwb04lx",
+                    "metrics": {
+                        "normal": 182,
+                        "warning": 2,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 875,
+                        "warning": 10,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "lordandtaylor.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 286,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 256,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 240,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 782,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "thebay.com",
+            "renderer": "region",
+            "class": "normal",
+            "clusters": [],
+            "nodes": [
+                {
+                    "name": "sd1pwb11lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb10lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "sd1pwb12lx",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "INTERNET",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                },
+                {
+                    "name": "F5",
+                    "renderer": "focusedChild",
+                    "class": "normal"
+                }
+            ],
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            },
+            "connections": [
+                {
+                    "source": "F5",
+                    "target": "sd1pwb11lx",
+                    "metrics": {
+                        "normal": 241,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb10lx",
+                    "metrics": {
+                        "normal": 205,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "F5",
+                    "target": "sd1pwb12lx",
+                    "metrics": {
+                        "normal": 202,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "F5",
+                    "metrics": {
+                        "normal": 648,
+                        "warning": 0,
+                        "danger": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "www.saksfifthavenue.com",
+            "metrics": {
+                "normal": 356142,
+                "warning": 5398,
+                "danger": 580
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "m.saks.com",
+            "metrics": {
+                "normal": 81791,
+                "warning": 1622,
+                "danger": 4
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "www.saksfirstbeauty.com",
+            "metrics": {
+                "normal": 6403,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "go.saksdirect.com",
+            "metrics": {
+                "normal": 4034,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "prodpim.digital.hbc.com",
+            "metrics": {
+                "normal": 3071,
+                "warning": 49,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "saks.com",
+            "metrics": {
+                "normal": 2273,
+                "warning": 7,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "s5aimt.saksdirect.com",
+            "metrics": {
+                "normal": 1825,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "preview.saksdirect.com",
+            "metrics": {
+                "normal": 875,
+                "warning": 10,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "lordandtaylor.com",
+            "metrics": {
+                "normal": 782,
+                "warning": 0,
+                "danger": 0
+            }
+        },
+        {
+            "source": "INTERNET",
+            "target": "thebay.com",
+            "metrics": {
+                "normal": 648,
+                "warning": 0,
+                "danger": 0
+            }
+        }
+    ]
+}
