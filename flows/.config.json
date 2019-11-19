@@ -532,7 +532,7 @@
   },
   "node-red-contrib-uibuilder": {
    "name": "node-red-contrib-uibuilder",
-   "version": "1.0.6",
+   "version": "1.2.6",
    "local": false,
    "nodes": {
     "uibuilder": {
