@@ -14,9 +14,9 @@
     "es-response-parser": "^1.0.1",
     "flat": "^4.1.0",
     "node-json-transform": "^1.0.19",
-    "node-red": "^0.18.7",
+    "node-red": "^1.0.2",
     "node-red-contrib-elasticsearch7": "0.0.7",
-    "node-red-contrib-uibuilder": "^1.2.6",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
